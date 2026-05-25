@@ -7,7 +7,21 @@ from selenium.webdriver.chrome.options import Options
 @pytest.fixture
 def driver():
     options = Options()
-    options.add_argument("--headless=new")#Режим без визуадьного отображения браузера
+    # словарь настроекдля отключения уведомлений
+    # prefs = {
+    #     "credentials_enable_service": False,  # Отключаем предложение сохранить пароль
+    #     "profile.password_manager_enabled": False,  # Отключаем сам менеджер паролей
+    #     "profile.password_manager_leak_detection": False,  # Отключаем проверку утечек паролей
+    #     "safebrowsing.enabled": False  # Отключаем антивирус (Safe Browsing)
+    # }
+    # options.add_experimental_option("prefs", prefs)
+    # options.add_argument("--disable-features=PasswordLeakDetection")  # отключаем функцию утечки паролей
+    #
+    # # Отключаем табличку "Chrome управляется тестовым ПО"
+    # options.add_experimental_option("excludeSwitches", ["enable-automation"])
+
+
+    options.add_argument("--headless=new")#Режим без визуального отображения браузера
     options.add_argument("--window-size=1920,1080")#Установка размера окна для корректной работы в headless режиме
 
     options.add_argument("--no-sandbox")

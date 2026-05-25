@@ -1,4 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","6647","Массовое добавление всех товаров в корзину","Lesson_40.tests","Mon May 25 14:02:03 UTC 2026","failed","Mon May 25 14:02:10 UTC 2026","","test_shop","",""
-"","700","Успешный вход и добавление товара в корзину","Lesson_40.tests","Mon May 25 14:02:02 UTC 2026","passed","Mon May 25 14:02:03 UTC 2026","","test_shop","",""
-"","6723","Проверка целостности данных: Каталог -> Корзина","Lesson_40.tests","Mon May 25 14:02:10 UTC 2026","passed","Mon May 25 14:02:17 UTC 2026","","test_shop","",""
+"","3814","Массовое добавление всех товаров в корзину","Lesson_40.tests","Mon May 25 14:08:32 UTC 2026","failed","Mon May 25 14:08:36 UTC 2026","","test_shop","",""
+"","11961","Успешный вход и добавление товара в корзину","Lesson_40.tests","Mon May 25 14:08:20 UTC 2026","broken","Mon May 25 14:08:32 UTC 2026","","test_shop","",""
+"","3898","Проверка целостности данных: Каталог -> Корзина","Lesson_40.tests","Mon May 25 14:08:36 UTC 2026","passed","Mon May 25 14:08:40 UTC 2026","","test_shop","",""
